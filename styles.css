@@ -1,0 +1,190 @@
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+
+/* Title Section  */
+
+#title {
+  text-align: left;
+}
+
+.container-fluid {
+  padding: 3.8% 15%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat' sans-serif;
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+
+/* Headings */
+
+.big-heading {
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+/* Sections */
+
+.colored-section {
+  color: white;
+  background-color: #ff4c68;
+}
+
+.white-section {
+  background-color: white;
+}
+
+/* Navigation bar  */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-nav {
+  margin-left: 50%;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat';
+  font-weight: 400;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+
+/* Download Buttons */
+
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+
+/* Title Image  */
+
+.title-img{
+  margin-left: 6rem;
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute; 
+}
+
+@media (max-width: 1028px){
+  #title {
+    text-align: center;
+  }
+
+  .title-img {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+
+/* Features Section  */
+
+#features {
+  position: relative;
+  z-index: 1;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.features-item {
+  padding: 2%;
+}
+
+.icon {
+  color: #ef8172;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+.feature-p {
+    color: #8f8f8f;
+}
+
+
+  /* Testimonials Section */
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+
+/* Press Section  */
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  align-content: center;
+}
+
+
+/* Pricing Section  */
+
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-col{
+  padding: 3% 2%;
+}
+
+
+/* Call To Action  */
+
+.cta-btn {
+  margin-top: 1rem;
+}
+
+
+/* Footer Section  */
+
+.footer-icons > i {
+  padding: 15px;
+  margin-bottom: 10px;
+}
